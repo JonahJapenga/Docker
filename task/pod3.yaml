@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  namespace: task1
+  name: pod3
+spec:
+  containers:
+  - name: container
+    image: jonahjapenga/latest
+    ports:
+    - containerPort: 3001
