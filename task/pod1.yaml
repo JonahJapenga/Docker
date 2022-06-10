@@ -10,4 +10,4 @@ spec:
   - name: container
     image: jonahjapenga/docker_1:Latest
     ports:
-     - containerPort: 3001
+      - containerPort: 3001
