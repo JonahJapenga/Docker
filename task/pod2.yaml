@@ -8,6 +8,6 @@ metadata:
 spec:
   containers:
   - name: container
-    image: jonahjapenga/latest
+    image: jonahjapenga/docker_1
     ports:
     - containerPort: 3001
